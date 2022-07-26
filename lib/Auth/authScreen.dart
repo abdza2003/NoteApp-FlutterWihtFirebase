@@ -4,6 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
 import 'package:sampleproject/Firebase/Auth.dart';
+import 'package:sampleproject/Theme/ThemeController.dart';
 import 'package:sampleproject/Theme/Themes.dart';
 import 'package:sampleproject/main.dart';
 import 'package:sampleproject/screen/homePageScreen.dart';
@@ -214,6 +215,11 @@ class _authScreenState extends State<authScreen> {
                       height: 20,
                     ),
                     TextFormField(
+                      style: TextStyle(
+                        color: ThemeController().themeApp == ThemeMode.light
+                            ? Colors.black
+                            : Colors.white,
+                      ),
                       decoration: InputDecoration(
                         prefixIcon: Icon(
                           FontAwesomeIcons.user,
@@ -247,6 +253,11 @@ class _authScreenState extends State<authScreen> {
                 height: 20,
               ),
               TextFormField(
+                style: TextStyle(
+                  color: ThemeController().themeApp == ThemeMode.light
+                      ? Colors.black
+                      : Colors.white,
+                ),
                 decoration: InputDecoration(
                   prefixIcon: Icon(
                     Icons.email,
@@ -277,6 +288,11 @@ class _authScreenState extends State<authScreen> {
                 height: 20,
               ),
               TextFormField(
+                style: TextStyle(
+                  color: ThemeController().themeApp == ThemeMode.light
+                      ? Colors.black
+                      : Colors.white,
+                ),
                 decoration: InputDecoration(
                   prefixIcon: Icon(
                     Icons.lock,
