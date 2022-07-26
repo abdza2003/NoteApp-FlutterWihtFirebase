@@ -19,7 +19,7 @@ class Auth with ChangeNotifier {
       required String password,
       required String urlSegment}) async {
     final String urlApi =
-        'https://identitytoolkit.googleapis.com/v1/accounts:$urlSegment?key=AIzaSyBQrduvWvo1Pas_d_OnEi6DCyfCcQa21NI';
+        'https://identitytoolkit.googleapis.com/v1/accounts:$urlSegment?key=$appIdKey';
 
     try {
       http.Response res = await http.post(
