@@ -1,0 +1,17 @@
+  StreamBuilder<QuerySnapshot>(
+            stream: FirebaseFirestore.instance
+                .collection('/newAccount/${widget.idKey}/user')
+                .snapshots(),
+            builder: (context, snapshot) {
+              if (!snapshot.hasData) {
+                return Center(
+                  child: CircularProgressIndicator(),
+                );
+              }
+              List<DocumentSnapshot> s1 = snapshot.data!.docs;
+
+              return !s1.isEmpty
+                  ? Container()
+                  : Text('');
+            },
+          ),
