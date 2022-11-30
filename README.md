@@ -5,12 +5,9 @@ https://user-images.githubusercontent.com/86608368/181010970-1b5ff50f-acb1-4bb1-
 
 A new Flutter project.
 
-![photo_2022-07-26_15-45-13](https://user-images.githubusercontent.com/86608368/181009168-0b21c571-f9fa-460e-9c71-a80d154e9e75.jpg)
-![photo_2022-07-26_15-45-15](https://user-images.githubusercontent.com/86608368/181009175-99150591-667e-4581-84d0-5d034dd51145.jpg)
-![photo_2022-07-26_15-45-18](https://user-images.githubusercontent.com/86608368/181009178-ecf4ad24-2032-406c-8bb7-3106d55cdb0c.jpg)
-![photo_2022-07-26_15-45-21](https://user-images.githubusercontent.com/86608368/181009183-205d9def-fc36-4bec-9748-d1c52fe4d4f8.jpg)
-![photo_2022-07-26_15-46-03](https://user-images.githubusercontent.com/86608368/181009184-e6766949-e33c-412a-8097-98be875c33e9.jpg)
-![photo_2022-07-26_15-45-07](https://user-images.githubusercontent.com/86608368/181009186-886f27bf-6fb5-4d65-be32-6ac9947b80b7.jpg)
+![204509741-d6868662-ea69-4210-8d9c-29c8fd9a1e29](https://user-images.githubusercontent.com/86608368/204734863-bb132e72-debe-4079-a9ff-65055f415c4f.png)
+
+![204509663-6128f34b-81d7-4bbb-b184-c4a297a2fd10](https://user-images.githubusercontent.com/86608368/204734865-023ca871-3809-4163-9ae0-290acdfef31f.png)
 
 
 ## Getting Started
